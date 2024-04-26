@@ -1,0 +1,17 @@
+.welcome-message{
+    font-size: 2.5em;
+    background-color: hsla(120, 55%, 44%, 0.3);
+    color: rgba(53, 199, 199, 0.408);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.loggin-prompt{
+    font-size: 2.5em;
+    background-color: hsl(21, 100%, 42%);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
