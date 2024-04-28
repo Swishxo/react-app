@@ -10,12 +10,19 @@ import MyComponent from "./state/MyComponent";
 import { useState } from "react";
 import ComponentChange from "./onChange_event/ComponentChange";
 import MyUpdater from "./updater_function/MyUpdated";
+import ObjectUpdate from "./update_objs/ObjectUpdate";
+import ArrayUpdate from "./array_update/ArrayUpdate";
+
+
+
+
+
 
 function App() {
 
-  return (
-      <MyUpdater />
-  );
+  return (<>
+      <ArrayUpdate />
+      </>);
 }
 
 export default App
