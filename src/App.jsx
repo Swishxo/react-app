@@ -12,6 +12,7 @@ import ComponentChange from "./onChange_event/ComponentChange";
 import MyUpdater from "./updater_function/MyUpdated";
 import ObjectUpdate from "./update_objs/ObjectUpdate";
 import ArrayUpdate from "./array_update/ArrayUpdate";
+import ArrayObj from "./array_obj/ArrayObj";
 
 
 
@@ -21,7 +22,7 @@ import ArrayUpdate from "./array_update/ArrayUpdate";
 function App() {
 
   return (<>
-      <ArrayUpdate />
+      <ArrayObj />
       </>);
 }
 
